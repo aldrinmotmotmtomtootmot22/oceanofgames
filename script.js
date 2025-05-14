@@ -1,1 +1,1 @@
-console.log("Welcome to the Video Game Store!");
+console.log("Welcome to Ocean of Games!");
