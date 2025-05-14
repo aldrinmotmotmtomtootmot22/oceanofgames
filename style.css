@@ -1,38 +1,41 @@
-/* General Body Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('images/background.png'); /* Updated path to background image */
+    background-image: url('images/background.png'); /* Path to background image */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    color: white;
-    margin: 0;
-    padding: 0;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    color: white;
-    padding: 20px;
     text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: 'Arial', sans-serif;
 }
 
 #games {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin: 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
+}
+
+.game {
+    text-align: center;
+    margin: 15px;
+    width: 278px; /* Matches the image width */
 }
 
 .game img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+    width: 278px;
+    height: 358px;
+    border-radius: 10px;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-family: 'Arial', sans-serif;
 }
