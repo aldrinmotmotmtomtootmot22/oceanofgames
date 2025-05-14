@@ -1,7 +1,7 @@
 /* General Body Styles */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('images/background color.jpeg'); /* Path to background image */
+    background-image: url('images/background.png'); /* Updated path to background image */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
