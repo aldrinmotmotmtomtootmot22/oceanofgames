@@ -1,5 +1,5 @@
 body {
-    background-image: url('images/background.png'); /* Correct path to background image */
+    background-image: url('images/background.png'); 
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ header {
 .game {
     text-align: center;
     margin: 15px;
-    width: 278px; /* Matches the image width */
+    width: 278px; 
 }
 
 .game img {
